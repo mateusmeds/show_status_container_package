@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class ShowStatusConainer extends StatelessWidget {
+class ShowStatusContainer extends StatelessWidget {
   final String statusText;
   final double? textFontSize;
   final Color? colorText;
   final Color? colorContainer;
 
-  const ShowStatusConainer({
+  const ShowStatusContainer({
     required this.statusText,
     this.textFontSize,
     this.colorText,
